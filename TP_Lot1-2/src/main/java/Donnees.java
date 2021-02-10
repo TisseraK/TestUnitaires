@@ -3,6 +3,11 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JTextArea;
 
 public class Donnees {
 
@@ -40,6 +45,17 @@ public class Donnees {
             }
             System.out.println();
         }
+    }
+}
+//Saisie information nouveau client
+public class ChampText extends JTextField{
+    public static void main(String[] args){
+        JFrame from = new JFrame("Nom");
+        champNom = new JTextField();
+        JFrame from = new JFrame("Prenom");
+        champPrenom = new JTextField();
+        JFrame from = new JFrame("ID");
+        champID = new JTextField();
     }
 }
 

@@ -42,5 +42,16 @@ public class Donnees {
         }
     }
 }
+//Saisie information nouveau client
+public class ChampText extends JTextField{
+    public static void main(String[] args){
+        JFrame from = new JFrame("Nom");
+        champNom = new JTextField();
+        JFrame from = new JFrame("Prenom");
+        champPrenom = new JTextField();
+        JFrame from = new JFrame("ID");
+        champID = new JTextField();
+    }
+}
 
 
